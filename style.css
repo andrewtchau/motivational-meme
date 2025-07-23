@@ -1,43 +1,47 @@
+/*  Font Utility Classes  */
 .libre-baskerville-regular {
   font-family: "Libre Baskerville", serif;
   font-weight: 400;
   font-style: normal;
 }
-
 .libre-baskerville-bold {
   font-family: "Libre Baskerville", serif;
   font-weight: 700;
   font-style: normal;
 }
-
-.libre-baskerville-regular-italic {
+.libre-baskerville-italic {
   font-family: "Libre Baskerville", serif;
   font-weight: 400;
   font-style: italic;
 }
 
-
-* {
-    text-align: center;
-    color: white;
-    background-color: black;
+/*  Global Styles  */
+body {
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif; /* fallback font */
 }
 
-div {
-
-    width: 50%;
-    margin-left: 25%;
-    text-align: center;
-
+/*  Layout Container  */
+.container {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
 }
 
-h1 {
-    font-family: "Libre Baskerville", sans-serif;
-    text-transform: uppercase;
+/*  Quote / Text Styling  */
+.quote {
+  font-family: "Libre Baskerville", serif;
+  text-transform: uppercase;
+  font-weight: 700;
 }
 
+/*  Image Styling  */
 img {
-    border: 5px solid white;
-    width: 100%;
-    margin-top: 50px;
+  border: 5px solid white;
+  width: 100%;
+  margin-top: 50px;
 }
